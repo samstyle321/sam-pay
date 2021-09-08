@@ -16,16 +16,17 @@ const Header = () => {
                 officiis tempora recusandee Voluptate quam, nisi odio officiis
                 tempora recusandee.
               </p>
-              <h3>get early access for you.</h3>
+              <h3>Get early access for you.</h3>
               <div className="input-group mt-3">
                 <input
                   type="text"
-                  className="rounded-pill w-75 me-3 p-2 form-control-text"
+                  className="rounded-pill  me-3 p-2 form-control-text"
+                  placeholder="Enter your Email"
                 />
-                <div className="input-group-text">Get it Now</div>
+                <div className="input-group-button">Get it Now</div>
               </div>
             </div>
-            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
+            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
               <img
                 src="./images/hero1.jpg"
                 alt="hero-img"
@@ -34,7 +35,7 @@ const Header = () => {
               <img
                 src="./images/hero4.jpg"
                 alt="hero-img"
-                className="img-fluid"
+                className="img-fluid main-herosec-img2"
               />
             </div>
           </div>

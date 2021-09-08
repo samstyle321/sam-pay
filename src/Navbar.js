@@ -3,8 +3,8 @@ import React from "react";
 export const Navbar = () => {
   return (
     <>
-      <section className="navar-bg">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <section className="navbar-bg">
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container">
             <a class="navbar-brand" href="">
               SamPay
