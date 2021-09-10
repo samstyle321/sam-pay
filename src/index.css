@@ -159,6 +159,41 @@ header {
   box-shadow: 0.8rem 0 0.8rem rgba(0, 0, 0, 0.25);
 }
 
+/*================How Does It Works ==========================*/
+.work-container {
+  width: 80vh;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -10rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.work-container .main-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+.work-container .work-container-subdiv {
+  padding: 0 6rem;
+}
+.work-container .sub-heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+.work-container .fonstawesome-style {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+
 /* ========== Responsive ============*/
 
 @media (min-width: 1500px) {
@@ -179,5 +214,20 @@ header {
   .container-xl,
   .container-xxl {
     max-width: 1400px;
+  }
+}
+@media (max-width: 900px) {
+  .work-container {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 900px) {
+  .main-herosection-images img {
+    height: 100% !important;
+  }
+}
+@media (max-width: 900px) {
+  .main-herosection-images .main-herosec-img2 {
+    height: 40% !important;
   }
 }
