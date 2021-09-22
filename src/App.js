@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import HowItWorks from "./HowItWorks";
 import AboutUs from "./AboutUs";
+import Services from "./Services";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <HowItWorks />
       <AboutUs />
+      <Services />
     </>
   );
 };
