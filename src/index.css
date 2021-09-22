@@ -181,7 +181,7 @@ header {
   font-size: 2rem;
   font-weight: normal;
 }
-.work-container .fonstawesome-style {
+.fonstawesome-style {
   font-size: 2.5rem;
   color: var(--primary-color);
   width: 6rem;
@@ -245,6 +245,46 @@ header {
 @media (max-width: 992px) {
   .our-services-rightside-img {
     text-align: center;
+  }
+}
+
+/*================ Services ==========================*/
+.service-main-container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+.service-main-container .main-heading {
+  margin: 3rem 0;
+}
+.service-main-container .work-container-subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+.service-main-container .work-container-subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+.service-main-container .work-container-subdiv:hover > .fonstawesome-style {
+  background-color: #fff;
+}
+.service-main-container .work-container-subdiv .main-hero-para {
+  width: 100%;
+}
+.service-main-container .work-container-subdiv .fonstawesome-style {
+  text-align: left;
+  margin: 2rem 0;
+}
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
   }
 }
 /* ========== Responsive ============*/
