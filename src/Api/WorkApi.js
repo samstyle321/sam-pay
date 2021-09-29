@@ -14,7 +14,7 @@ const workapi = [
   {
     id: 3,
     logo: "fas fa-donate",
-    title: "Receive your funds",
+    title: "Receive your fund",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
   },
 ];
