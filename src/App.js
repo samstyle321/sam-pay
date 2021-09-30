@@ -6,7 +6,7 @@ import Header from "./Header";
 import HowItWorks from "./HowItWorks";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
-
+import ContactUs from "./ContactUs";
 const App = () => {
   return (
     <>
@@ -15,6 +15,7 @@ const App = () => {
       <HowItWorks />
       <AboutUs />
       <Services />
+      <ContactUs />
     </>
   );
 };

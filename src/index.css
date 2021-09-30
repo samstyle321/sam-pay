@@ -287,6 +287,50 @@ header {
     margin: 2.5rem auto;
   }
 }
+
+/*================ Contact Us ==========================*/
+.contactus-section {
+  margin: 10rem 0;
+}
+
+.contactus-leftside img {
+  min-width: 80%;
+  max-height: 27rem;
+  height: auto;
+}
+
+.contact-input-field {
+  margin-bottom: 4rem;
+}
+
+.contactus-rightside form .form-control {
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contactus-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+
+.contactus-rightside form .main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  margin-bottom: 3rem;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
 /* ========== Responsive ============*/
 
 @media (min-width: 1500px) {
