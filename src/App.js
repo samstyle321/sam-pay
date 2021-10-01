@@ -7,6 +7,7 @@ import HowItWorks from "./HowItWorks";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
+import Footer from "./Footer";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
       <AboutUs />
       <Services />
       <ContactUs />
+      <Footer />
     </>
   );
 };
