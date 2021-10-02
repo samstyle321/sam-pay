@@ -1,23 +1,20 @@
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Navbar from "./Navbar";
-import Header from "./Header";
-import HowItWorks from "./HowItWorks";
-import AboutUs from "./AboutUs";
-import Services from "./Services";
-import ContactUs from "./ContactUs";
-import Footer from "./Footer";
+import Home from "./Home";
+import { Route, Switch } from "react-router";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Error from "./Pages/Error";
+import Service from "./Pages/Service";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Header />
-      <HowItWorks />
-      <AboutUs />
-      <Services />
-      <ContactUs />
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/about" component={About}></Route>
+        <Route path="/contact" component={Contact}></Route>
+        <Route path="/service" component={Service}></Route>
+        <Route path="/error" component={Error}></Route>
+      </Switch>
     </>
   );
 };
