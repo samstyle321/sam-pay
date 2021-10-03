@@ -1,16 +1,17 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <>
       <section className="navbar-bg">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <div class="container">
-            <a class="navbar-brand" href="">
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <div className="container">
+            <NavLink className="navbar-brand" to="/">
               SamPay
-            </a>
+            </NavLink>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -18,36 +19,46 @@ export const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link active"
+                    aria-current="page"
+                    to="/"
+                  >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/service">
                     Services
-                  </a>
+                  </NavLink>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/about">
                     About
-                  </a>
+                  </NavLink>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/contact">
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
               <form>
-                <button class="btn  btn-style" type="submit">
+                <button className="btn  btn-style" type="submit">
                   Sign Up
                 </button>
-                <button class="btn btn-style btn-style-border" type="submit">
+                <button
+                  className="btn btn-style btn-style-border"
+                  type="submit"
+                >
                   Login
                 </button>
               </form>
