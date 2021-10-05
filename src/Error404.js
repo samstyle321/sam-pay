@@ -11,7 +11,7 @@ const Error404 = () => {
           </div>
           <h2>We are sorry, page not found! </h2>
           <p>
-            The page you are looking for mightnhave been removed, had its name
+            The page you are looking for might have been removed, had its name
             changed or its temporary unavaliable.
           </p>
           <NavLink to="/">Back to homepage</NavLink>
