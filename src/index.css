@@ -597,4 +597,17 @@ footer a {
     margin: 5rem auto 0 auto;
     font-weight: bolder;
   }
+  /*-------------Contact Us------------
+---------------------------------------------*/
+  .contactus-rightside {
+    margin-top: 3rem;
+  }
+  .contactus-rightside form .main-hero-para {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: lighter;
+    width: 98%;
+    padding: 0 1rem;
+  }
 }
