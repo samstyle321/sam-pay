@@ -566,4 +566,35 @@ footer a {
   .work-container .work-container-subdiv {
     padding: 0 0rem;
   }
+
+  /*-------------How to use App------------
+---------------------------------------------*/
+
+  .our-services .our-services-list {
+    padding-left: 3rem;
+  }
+  .our-services-rightside-img {
+    text-align: center;
+  }
+  .common-section .our-services-rightside-content {
+    padding-left: 4rem;
+  }
+  /*-------------Services------------
+---------------------------------------------*/
+
+  .our-services img {
+    width: 70%;
+    height: 85%;
+  }
+  .our-services .our-services-leftside-img img {
+    margin-top: 0;
+  }
+  .service-container .work-container-subdiv {
+    padding: 0 2rem;
+    margin: 2rem auto;
+  }
+  .service-container .main-heading {
+    margin: 5rem auto 0 auto;
+    font-weight: bolder;
+  }
 }
