@@ -516,10 +516,54 @@ footer a {
 
   .main-hero-container h1 {
     font-size: 2.5rem;
+    margin-top: 2rem;
   }
   .main-hero-para {
     font-size: 1.5rem;
     padding-right: 1rem;
     width: 100%;
+  }
+  .main-hero-container .header-leftside {
+    padding-left: 4rem;
+    padding-top: 1rem;
+  }
+  .main-herosection-images {
+    position: relative;
+    height: 25rem;
+  }
+  .header-right-side img {
+    width: 60%;
+    height: 100%;
+    margin-top: 0rem;
+  }
+  .header-right-side .main-herosec-img2 {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    left: 50%;
+    top: -2%;
+    box-shadow: 0.8px 0rem 0.8rem rgb(0 0 0 / 25%);
+  }
+  .input-group .form-control-text {
+    width: 75%;
+  }
+
+  .input-group .input-group-button {
+    right: 20%;
+    width: 30%;
+  }
+  .work-container {
+    width: 80vw;
+    padding: 5rem 1rem;
+    margin-top: 10rem;
+  }
+  .work-container .main-heading {
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+    word-spacing: 0rem;
+  }
+  .work-container .work-container-subdiv {
+    padding: 0 0rem;
   }
 }
